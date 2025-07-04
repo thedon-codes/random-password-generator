@@ -77,6 +77,19 @@ hr {
     gap: 24px;
 }
 
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 0;
+    }
+    #media {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
 @media (min-width: 768px) {
     body {
         max-width: 600px;
